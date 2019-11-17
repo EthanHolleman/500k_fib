@@ -4,5 +4,5 @@ def fib(n, out='fibs.txt'):
     with open(out, 'w') as f:
         while s != n:
             c, s = [c[1], sum(c)], s+1
-            f.write(str(c[0]) + '\n')
+            f.write(str(c[1]) + '\n')
             s+=1
